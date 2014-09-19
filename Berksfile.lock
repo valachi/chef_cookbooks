@@ -1,9 +1,11 @@
 DEPENDENCIES
+  curl (~> 2.0.0)
   git (~> 4.0.2)
 
 GRAPH
   build-essential (2.0.6)
   chef_handler (1.1.6)
+  curl (2.0.0)
   dmg (2.2.0)
   git (4.0.2)
     build-essential (>= 0.0.0)
