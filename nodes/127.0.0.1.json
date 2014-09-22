@@ -3,7 +3,8 @@
     "recipe[git]",
     "recipe[curl]",
     "recipe[rbenv]",
-    "recipe[rbenv::ruby_build]"
+    "recipe[rbenv::ruby_build]",
+    "recipe[deployer]"
   ],
   "automatic": {
     "ipaddress": "127.0.0.1"

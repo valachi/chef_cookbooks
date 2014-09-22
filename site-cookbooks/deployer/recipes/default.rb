@@ -1,0 +1,6 @@
+user_account 'deployer' do
+  ssh_keygen true
+  home '/var/rails'
+  password '$1$S8n9b4Fg$EzQDj8sm.5e/AgM7MJess/'
+  ssh_keys 'ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEAt+G9pkacFYKfTtM4stF7QFYAQKZEeWBI7zOjuDZ/H4kOPJiurm7rdw754b35Yjwbo0gHoHNjAHJYxoPjaS+zVcsnRR01zJ/v2mtxxHOk55Q9SIaBWUlVWBhZwLxO/CtAKyWmPk23wX86ru/Zit87vsnbHTnEDTeRr7Y1IWLsvpiYCI2t3NFfbmxRWq3ahTLacxkTFy9THauTDBrvYJldW/12L+e2SFDjK017D75YekHVApAwzvv9ncKYcfEXRxvZF/Uok00CnFe3efSXZjTLVILMoBSTGoVeMokI/dSqnW3+feT2Q8abt2tc7beD85pejGhwcZH3i5OKgFHKyAjW4w== impulse221@yandex.ru'
+end
