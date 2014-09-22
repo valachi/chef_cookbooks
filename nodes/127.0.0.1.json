@@ -5,7 +5,8 @@
     "recipe[curl]",
     "recipe[rbenv]",
     "recipe[rbenv::ruby_build]",
-    "recipe[deployer]"
+    "recipe[deployer]",
+    "recipe[ruby-1.9.3]"
   ],
   "automatic": {
     "ipaddress": "127.0.0.1"
