@@ -1,6 +1,9 @@
 DEPENDENCIES
   curl (~> 2.0.0)
   git (~> 4.0.2)
+  postgresql
+    git: git@github.com:phlipper/chef-postgresql.git
+    revision: 4ed030dd3f6c770dd0f6a7a9bdc20f48ede448e0
   rbenv (~> 1.7.1)
   user
     git: git@github.com:fnichol/chef-user.git
@@ -20,6 +23,8 @@ GRAPH
     yum (~> 3.0)
     yum-epel (>= 0.0.0)
   ohai (2.0.1)
+  postgresql (0.14.1)
+    apt (>= 1.9.0)
   rbenv (1.7.1)
     apt (>= 0.0.0)
     build-essential (>= 0.0.0)

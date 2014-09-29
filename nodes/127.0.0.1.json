@@ -6,7 +6,8 @@
     "recipe[rbenv]",
     "recipe[rbenv::ruby_build]",
     "recipe[deployer]",
-    "recipe[ruby-1.9.3]"
+    "recipe[ruby-1.9.3]",
+    "recipe[postgresql-wrapper]"
   ],
   "automatic": {
     "ipaddress": "127.0.0.1"
