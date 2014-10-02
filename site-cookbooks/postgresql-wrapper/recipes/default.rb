@@ -9,3 +9,8 @@
 
 include_recipe 'postgresql'
 include_recipe 'postgresql::server'
+
+# create a user
+pg_user "deployer" do
+  privileges superuser: true, createdb: true, login: true
+end
